@@ -1,0 +1,6 @@
+framework module Pods_RapidAlertUITests {
+  umbrella header "Pods-RapidAlertUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

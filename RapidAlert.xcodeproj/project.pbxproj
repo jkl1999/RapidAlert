@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A9A8DBC208A73716701E486 /* Pods_RapidAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9407172ABC0508E7618C827E /* Pods_RapidAlertUITests.framework */; };
+		3FE1A2F7E71075C72D3F981D /* Pods_RapidAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B80262516D9602131FBF7D /* Pods_RapidAlert.framework */; };
+		7400BE3020DC0A0F00FEF4B6 /* RapidAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7400BE2E20DC0A0F00FEF4B6 /* RapidAlert.xcdatamodeld */; };
+		7435589720D0BA0E009052D3 /* rapidAlertLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7435589620D0BA0E009052D3 /* rapidAlertLogo.jpg */; };
+		7435589B20D0BA7D009052D3 /* rapidAlertLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7435589A20D0BA7D009052D3 /* rapidAlertLogo.png */; };
+		743AEED320CEDBEB00D86B4A /* StudentSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AEED220CEDBEB00D86B4A /* StudentSignIn.swift */; };
+		743AEED520CEDC3B00D86B4A /* StudenSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AEED420CEDC3B00D86B4A /* StudenSignUp.swift */; };
+		743AEED720CEDC8600D86B4A /* TeacherSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AEED620CEDC8600D86B4A /* TeacherSignUp.swift */; };
+		743AEED920CEDCA800D86B4A /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AEED820CEDCA800D86B4A /* SignUp.swift */; };
+		743AEEDB20CEDF1F00D86B4A /* TeacherSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AEEDA20CEDF1F00D86B4A /* TeacherSignIn.swift */; };
+		743AEEDD20CEE3D200D86B4A /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AEEDC20CEE3D200D86B4A /* StudentView.swift */; };
+		743AEEDF20CEE45800D86B4A /* TeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AEEDE20CEE45800D86B4A /* TeacherView.swift */; };
+		7444B2BA20D0A9F300AFD5A1 /* StudentReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7444B2B920D0A9F300AFD5A1 /* StudentReport.swift */; };
+		747633BE20DC196200B15E5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 747633BD20DC196100B15E5B /* GoogleService-Info.plist */; };
+		747633BF20DC196200B15E5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 747633BD20DC196100B15E5B /* GoogleService-Info.plist */; };
+		747633C020DC196200B15E5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 747633BD20DC196100B15E5B /* GoogleService-Info.plist */; };
 		74B937E620CE261800B0E9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B937E520CE261800B0E9E8 /* AppDelegate.swift */; };
 		74B937E820CE261800B0E9E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B937E720CE261800B0E9E8 /* ViewController.swift */; };
 		74B937EB20CE261800B0E9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B937E920CE261800B0E9E8 /* Main.storyboard */; };
@@ -14,6 +30,7 @@
 		74B937F020CE261900B0E9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B937EE20CE261900B0E9E8 /* LaunchScreen.storyboard */; };
 		74B937FB20CE261A00B0E9E8 /* RapidAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B937FA20CE261A00B0E9E8 /* RapidAlertTests.swift */; };
 		74B9380620CE261A00B0E9E8 /* RapidAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9380520CE261A00B0E9E8 /* RapidAlertUITests.swift */; };
+		85E74795FE99847FEE61BB27 /* Pods_RapidAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9CAB901032B5261E103C06 /* Pods_RapidAlertTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F9CAB901032B5261E103C06 /* Pods_RapidAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RapidAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BBE427E23871B2F47CD0F0 /* Pods-RapidAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidAlertTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RapidAlertTests/Pods-RapidAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68B05F865BFE7DD182D20BF8 /* Pods-RapidAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidAlertUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RapidAlertUITests/Pods-RapidAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7400BE2D20DC017900FEF4B6 /* RapidAlert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RapidAlert.entitlements; sourceTree = "<group>"; };
+		7400BE2F20DC0A0F00FEF4B6 /* RapidAlert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RapidAlert.xcdatamodel; sourceTree = "<group>"; };
+		7435589620D0BA0E009052D3 /* rapidAlertLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rapidAlertLogo.jpg; path = ../../../Desktop/rapidAlertLogo.jpg; sourceTree = "<group>"; };
+		7435589A20D0BA7D009052D3 /* rapidAlertLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rapidAlertLogo.png; path = ../../../Desktop/rapidAlertLogo.png; sourceTree = "<group>"; };
+		743AEED220CEDBEB00D86B4A /* StudentSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSignIn.swift; sourceTree = "<group>"; };
+		743AEED420CEDC3B00D86B4A /* StudenSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudenSignUp.swift; sourceTree = "<group>"; };
+		743AEED620CEDC8600D86B4A /* TeacherSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherSignUp.swift; sourceTree = "<group>"; };
+		743AEED820CEDCA800D86B4A /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		743AEEDA20CEDF1F00D86B4A /* TeacherSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherSignIn.swift; sourceTree = "<group>"; };
+		743AEEDC20CEE3D200D86B4A /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
+		743AEEDE20CEE45800D86B4A /* TeacherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherView.swift; sourceTree = "<group>"; };
+		7444B2B920D0A9F300AFD5A1 /* StudentReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentReport.swift; sourceTree = "<group>"; };
+		747633BD20DC196100B15E5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		74B937E220CE261800B0E9E8 /* RapidAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RapidAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B937E520CE261800B0E9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74B937E720CE261800B0E9E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +80,12 @@
 		74B9380120CE261A00B0E9E8 /* RapidAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B9380520CE261A00B0E9E8 /* RapidAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidAlertUITests.swift; sourceTree = "<group>"; };
 		74B9380720CE261A00B0E9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A67923C58FEDA71B96942AC /* Pods-RapidAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidAlertTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RapidAlertTests/Pods-RapidAlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		9407172ABC0508E7618C827E /* Pods_RapidAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RapidAlertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B80262516D9602131FBF7D /* Pods_RapidAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RapidAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C887FCCCD82EDDB9FBEABBD /* Pods-RapidAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidAlertUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RapidAlertUITests/Pods-RapidAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7643F08DAD147E4F32E3BA3 /* Pods-RapidAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidAlert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RapidAlert/Pods-RapidAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD0F6345662CEEBC56DCB99 /* Pods-RapidAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidAlert.release.xcconfig"; path = "Pods/Target Support Files/Pods-RapidAlert/Pods-RapidAlert.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE1A2F7E71075C72D3F981D /* Pods_RapidAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E74795FE99847FEE61BB27 /* Pods_RapidAlertTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9A8DBC208A73716701E486 /* Pods_RapidAlertUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +123,8 @@
 				74B937F920CE261A00B0E9E8 /* RapidAlertTests */,
 				74B9380420CE261A00B0E9E8 /* RapidAlertUITests */,
 				74B937E320CE261800B0E9E8 /* Products */,
+				C2A1C3CEB8AC1862B5D06578 /* Pods */,
+				8C263AEDBBE5260C3D35F246 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +141,22 @@
 		74B937E420CE261800B0E9E8 /* RapidAlert */ = {
 			isa = PBXGroup;
 			children = (
+				7400BE2D20DC017900FEF4B6 /* RapidAlert.entitlements */,
 				74B937E520CE261800B0E9E8 /* AppDelegate.swift */,
+				7400BE2E20DC0A0F00FEF4B6 /* RapidAlert.xcdatamodeld */,
 				74B937E720CE261800B0E9E8 /* ViewController.swift */,
 				74B937E920CE261800B0E9E8 /* Main.storyboard */,
+				7444B2B920D0A9F300AFD5A1 /* StudentReport.swift */,
+				743AEEDE20CEE45800D86B4A /* TeacherView.swift */,
+				743AEEDC20CEE3D200D86B4A /* StudentView.swift */,
+				743AEEDA20CEDF1F00D86B4A /* TeacherSignIn.swift */,
+				747633BD20DC196100B15E5B /* GoogleService-Info.plist */,
+				743AEED820CEDCA800D86B4A /* SignUp.swift */,
+				743AEED620CEDC8600D86B4A /* TeacherSignUp.swift */,
+				743AEED420CEDC3B00D86B4A /* StudenSignUp.swift */,
+				743AEED220CEDBEB00D86B4A /* StudentSignIn.swift */,
+				7435589A20D0BA7D009052D3 /* rapidAlertLogo.png */,
+				7435589620D0BA0E009052D3 /* rapidAlertLogo.jpg */,
 				74B937EC20CE261900B0E9E8 /* Assets.xcassets */,
 				74B937EE20CE261900B0E9E8 /* LaunchScreen.storyboard */,
 				74B937F120CE261A00B0E9E8 /* Info.plist */,
@@ -125,6 +182,29 @@
 			path = RapidAlertUITests;
 			sourceTree = "<group>";
 		};
+		8C263AEDBBE5260C3D35F246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95B80262516D9602131FBF7D /* Pods_RapidAlert.framework */,
+				0F9CAB901032B5261E103C06 /* Pods_RapidAlertTests.framework */,
+				9407172ABC0508E7618C827E /* Pods_RapidAlertUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2A1C3CEB8AC1862B5D06578 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7643F08DAD147E4F32E3BA3 /* Pods-RapidAlert.debug.xcconfig */,
+				CDD0F6345662CEEBC56DCB99 /* Pods-RapidAlert.release.xcconfig */,
+				15BBE427E23871B2F47CD0F0 /* Pods-RapidAlertTests.debug.xcconfig */,
+				8A67923C58FEDA71B96942AC /* Pods-RapidAlertTests.release.xcconfig */,
+				9C887FCCCD82EDDB9FBEABBD /* Pods-RapidAlertUITests.debug.xcconfig */,
+				68B05F865BFE7DD182D20BF8 /* Pods-RapidAlertUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74B9380A20CE261A00B0E9E8 /* Build configuration list for PBXNativeTarget "RapidAlert" */;
 			buildPhases = (
+				A06CC5D95EC59A25CAFC754A /* [CP] Check Pods Manifest.lock */,
 				74B937DE20CE261800B0E9E8 /* Sources */,
 				74B937DF20CE261800B0E9E8 /* Frameworks */,
 				74B937E020CE261800B0E9E8 /* Resources */,
+				92E8D3E6E86AC22D84A4B61D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74B9380D20CE261A00B0E9E8 /* Build configuration list for PBXNativeTarget "RapidAlertTests" */;
 			buildPhases = (
+				4A77CB3BCA26FFC0FA0E0331 /* [CP] Check Pods Manifest.lock */,
 				74B937F220CE261A00B0E9E8 /* Sources */,
 				74B937F320CE261A00B0E9E8 /* Frameworks */,
 				74B937F420CE261A00B0E9E8 /* Resources */,
@@ -167,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74B9381020CE261A00B0E9E8 /* Build configuration list for PBXNativeTarget "RapidAlertUITests" */;
 			buildPhases = (
+				B9F439BBE591AAC9348B6764 /* [CP] Check Pods Manifest.lock */,
 				74B937FD20CE261A00B0E9E8 /* Sources */,
 				74B937FE20CE261A00B0E9E8 /* Frameworks */,
 				74B937FF20CE261A00B0E9E8 /* Resources */,
@@ -193,13 +277,21 @@
 				TargetAttributes = {
 					74B937E120CE261800B0E9E8 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					74B937F520CE261A00B0E9E8 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 74B937E120CE261800B0E9E8;
 					};
 					74B9380020CE261A00B0E9E8 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 74B937E120CE261800B0E9E8;
 					};
 				};
@@ -229,9 +321,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7435589720D0BA0E009052D3 /* rapidAlertLogo.jpg in Resources */,
 				74B937F020CE261900B0E9E8 /* LaunchScreen.storyboard in Resources */,
+				7435589B20D0BA7D009052D3 /* rapidAlertLogo.png in Resources */,
 				74B937ED20CE261900B0E9E8 /* Assets.xcassets in Resources */,
 				74B937EB20CE261800B0E9E8 /* Main.storyboard in Resources */,
+				747633BE20DC196200B15E5B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747633BF20DC196200B15E5B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +342,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747633C020DC196200B15E5B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A77CB3BCA26FFC0FA0E0331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RapidAlertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92E8D3E6E86AC22D84A4B61D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RapidAlert/Pods-RapidAlert-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RapidAlert/Pods-RapidAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A06CC5D95EC59A25CAFC754A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RapidAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F439BBE591AAC9348B6764 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RapidAlertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74B937DE20CE261800B0E9E8 /* Sources */ = {
@@ -257,7 +431,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B937E820CE261800B0E9E8 /* ViewController.swift in Sources */,
+				743AEED920CEDCA800D86B4A /* SignUp.swift in Sources */,
+				7400BE3020DC0A0F00FEF4B6 /* RapidAlert.xcdatamodeld in Sources */,
+				743AEEDF20CEE45800D86B4A /* TeacherView.swift in Sources */,
+				743AEED320CEDBEB00D86B4A /* StudentSignIn.swift in Sources */,
+				743AEED720CEDC8600D86B4A /* TeacherSignUp.swift in Sources */,
+				743AEED520CEDC3B00D86B4A /* StudenSignUp.swift in Sources */,
+				743AEEDB20CEDF1F00D86B4A /* TeacherSignIn.swift in Sources */,
+				743AEEDD20CEE3D200D86B4A /* StudentView.swift in Sources */,
 				74B937E620CE261800B0E9E8 /* AppDelegate.swift in Sources */,
+				7444B2BA20D0A9F300AFD5A1 /* StudentReport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +611,10 @@
 		};
 		74B9380B20CE261A00B0E9E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7643F08DAD147E4F32E3BA3 /* Pods-RapidAlert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RapidAlert/RapidAlert.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KNXD7EFP2;
 				INFOPLIST_FILE = RapidAlert/Info.plist;
@@ -439,15 +624,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RapidAlert.RapidAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		74B9380C20CE261A00B0E9E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD0F6345662CEEBC56DCB99 /* Pods-RapidAlert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RapidAlert/RapidAlert.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KNXD7EFP2;
 				INFOPLIST_FILE = RapidAlert/Info.plist;
@@ -457,13 +644,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RapidAlert.RapidAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		74B9380E20CE261A00B0E9E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15BBE427E23871B2F47CD0F0 /* Pods-RapidAlertTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,7 +665,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RapidAlert.RapidAlertTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapidAlert.app/RapidAlert";
 			};
@@ -485,6 +673,7 @@
 		};
 		74B9380F20CE261A00B0E9E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A67923C58FEDA71B96942AC /* Pods-RapidAlertTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,7 +687,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RapidAlert.RapidAlertTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapidAlert.app/RapidAlert";
 			};
@@ -506,6 +695,7 @@
 		};
 		74B9381120CE261A00B0E9E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C887FCCCD82EDDB9FBEABBD /* Pods-RapidAlertUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -518,7 +708,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RapidAlert.RapidAlertUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = RapidAlert;
 			};
@@ -526,6 +716,7 @@
 		};
 		74B9381220CE261A00B0E9E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B05F865BFE7DD182D20BF8 /* Pods-RapidAlertUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,7 +729,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RapidAlert.RapidAlertUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = RapidAlert;
 			};
@@ -584,6 +775,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7400BE2E20DC0A0F00FEF4B6 /* RapidAlert.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7400BE2F20DC0A0F00FEF4B6 /* RapidAlert.xcdatamodel */,
+			);
+			currentVersion = 7400BE2F20DC0A0F00FEF4B6 /* RapidAlert.xcdatamodel */;
+			path = RapidAlert.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 74B937DA20CE261800B0E9E8 /* Project object */;
 }
