@@ -20,6 +20,7 @@
 		743AEEDD20CEE3D200D86B4A /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AEEDC20CEE3D200D86B4A /* StudentView.swift */; };
 		743AEEDF20CEE45800D86B4A /* TeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AEEDE20CEE45800D86B4A /* TeacherView.swift */; };
 		7444B2BA20D0A9F300AFD5A1 /* StudentReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7444B2B920D0A9F300AFD5A1 /* StudentReport.swift */; };
+		7446065520DD72AB00991E5A /* AdminSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446065420DD72AB00991E5A /* AdminSignUp.swift */; };
 		747633BE20DC196200B15E5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 747633BD20DC196100B15E5B /* GoogleService-Info.plist */; };
 		747633BF20DC196200B15E5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 747633BD20DC196100B15E5B /* GoogleService-Info.plist */; };
 		747633C020DC196200B15E5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 747633BD20DC196100B15E5B /* GoogleService-Info.plist */; };
@@ -66,6 +67,7 @@
 		743AEEDC20CEE3D200D86B4A /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
 		743AEEDE20CEE45800D86B4A /* TeacherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherView.swift; sourceTree = "<group>"; };
 		7444B2B920D0A9F300AFD5A1 /* StudentReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentReport.swift; sourceTree = "<group>"; };
+		7446065420DD72AB00991E5A /* AdminSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSignUp.swift; sourceTree = "<group>"; };
 		747633BD20DC196100B15E5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		74B937E220CE261800B0E9E8 /* RapidAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RapidAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B937E520CE261800B0E9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				7400BE2E20DC0A0F00FEF4B6 /* RapidAlert.xcdatamodeld */,
 				74B937E720CE261800B0E9E8 /* ViewController.swift */,
 				74B937E920CE261800B0E9E8 /* Main.storyboard */,
+				7446065420DD72AB00991E5A /* AdminSignUp.swift */,
 				7444B2B920D0A9F300AFD5A1 /* StudentReport.swift */,
 				743AEEDE20CEE45800D86B4A /* TeacherView.swift */,
 				743AEEDC20CEE3D200D86B4A /* StudentView.swift */,
@@ -374,12 +377,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RapidAlert/Pods-RapidAlert-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +444,7 @@
 				743AEED320CEDBEB00D86B4A /* StudentSignIn.swift in Sources */,
 				743AEED720CEDC8600D86B4A /* TeacherSignUp.swift in Sources */,
 				743AEED520CEDC3B00D86B4A /* StudenSignUp.swift in Sources */,
+				7446065520DD72AB00991E5A /* AdminSignUp.swift in Sources */,
 				743AEEDB20CEDF1F00D86B4A /* TeacherSignIn.swift in Sources */,
 				743AEEDD20CEE3D200D86B4A /* StudentView.swift in Sources */,
 				74B937E620CE261800B0E9E8 /* AppDelegate.swift in Sources */,
