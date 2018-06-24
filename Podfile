@@ -11,6 +11,7 @@ target 'RapidAlert' do
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
   pod 'Firebase/Database' 
+  pod 'Firebase/Firestore'
 
   target 'RapidAlertTests' do
     inherit! :search_paths

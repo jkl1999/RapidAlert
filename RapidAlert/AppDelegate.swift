@@ -20,6 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?)
         -> Bool {
             FirebaseApp.configure()
+            let db = Firestore.firestore()
+            let settings = db.settings
+            settings.areTimestampsInSnapshotsEnabled = true
+            db.settings = settings
+            
             registerForPushNotifications()
             return true
     }

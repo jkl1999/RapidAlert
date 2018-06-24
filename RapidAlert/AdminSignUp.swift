@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import FirebaseFirestore
 import Firebase
 
 
@@ -21,8 +22,13 @@ class AdminSignUp: UIViewController {
     @IBOutlet weak var Password: UITextField!
     @IBOutlet weak var Email: UITextField!
     @IBOutlet weak var SchoolName: UITextField!
+    
+    var db: Firestore!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        db = Firestore.firestore()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -65,11 +71,40 @@ class AdminSignUp: UIViewController {
                     // ...
                 }
             }
+            
+        }
+        
+        // sign in
+        
+        Auth.auth().signIn(withEmail: Email.text!, password: Password.text!) { (user, error) in
+            // ...
+            if error == nil {
+                
+            }else{
+                let alertController = UIAlertController(title: "Sign Up Failed", message: "Sorry, something went wrong", preferredStyle: .alert)
+                
+                
+                let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
+                    // ...
+                }
+            }
+            
+            
         }
         
         
-        
         //check database for duplicates
+        
+        db.collection("schools").document(SchoolName.text!).setData(
+            
+            [FrCode.text!: "First Responders",
+             tCode.text!: "Teachers",
+             sCode.text!: "Students"
+            ]
+        
+        )
+        
+        
     }
     
     
